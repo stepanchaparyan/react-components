@@ -6,7 +6,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-import './Button.css';
+import '../../styles.scss';
 
 var Button = function Button(_ref) {
   var children = _ref.children,

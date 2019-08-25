@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-import './Button.css';
+import '../../styles.scss';
 
 const Button = ({
   children, onClick, className, disabled, active, ...attrs
