@@ -17,8 +17,8 @@
   box-sizing: border-box;
   box-shadow: 1px 1px 10px #777;
   z-index: 9999;
-  opacity: 1;
-  white-space: nowrap;
+  opacity: 1 !important;
+  white-space: nowrap !important;
 }
 
 .tooltip.top {
