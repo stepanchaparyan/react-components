@@ -7,19 +7,16 @@
   justify-content: space-between;
   align-items: center;
   min-width: 200px;
-}
-
-.list-group-item:not(:last-child) {
-  border-bottom: none;
-}
-
-.list-group-item.active {
-  background-color: #23C9FF;
-  border: 1px solid #5EB2F2;
-  color: #FFF;
-}
-
-.list-group-item.disabled {
-  opacity: .5;
-  cursor: not-allowed;
+  &:not(:last-child) {
+    border-bottom: none;
+  }
+  &.active {
+    background-color: #23C9FF;
+    border: 1px solid #5EB2F2;
+    color: #FFF;
+  }
+  &.disabled {
+    opacity: .5;
+    cursor: not-allowed;
+  }
 }

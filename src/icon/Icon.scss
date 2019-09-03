@@ -1,15 +1,11 @@
-.styleFa {
+.styleFa, .fa {
     vertical-align: text-top !important;
-}
-
-.fa {
-    vertical-align: text-top !important;    
 }
 
 .func {
     cursor: pointer;
-  }
+    &.disabled {
+      cursor: not-allowed;
+    }
+}
   
-  .func.disabled {
-    cursor: not-allowed;
-  }
