@@ -10,9 +10,9 @@ const Image = ({
     { circle },
   );
 
-  if (!src) {
-    src = `https://via.placeholder.com/${width}x${height}`;
-  }
+  // if (!src) {
+  //   src = `https://via.placeholder.com/${width}x${height}`;
+  // }
 
   return (
     <img
@@ -36,7 +36,7 @@ Image.propTypes = {
 };
 
 Image.defaultProps = {
-  src: '',
+  src: null,
   alt: 'image',
   width: 100,
   height: 100,
